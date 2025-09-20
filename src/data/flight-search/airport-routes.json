@@ -1,0 +1,294 @@
+{
+  "routes": [
+    {
+      "country": "United States",
+      "country_code": "US",
+      "airports": [
+        {"code": "JFK", "name": "John F. Kennedy International Airport", "city": "New York"},
+        {"code": "LAX", "name": "Los Angeles International Airport", "city": "Los Angeles"},
+        {"code": "ORD", "name": "O'Hare International Airport", "city": "Chicago"},
+        {"code": "DFW", "name": "Dallas/Fort Worth International Airport", "city": "Dallas"},
+        {"code": "ATL", "name": "Hartsfield-Jackson Atlanta International Airport", "city": "Atlanta"},
+        {"code": "SEA", "name": "Seattle-Tacoma International Airport", "city": "Seattle"},
+        {"code": "SFO", "name": "San Francisco International Airport", "city": "San Francisco"},
+        {"code": "MIA", "name": "Miami International Airport", "city": "Miami"}
+      ]
+    },
+    {
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "airports": [
+        {"code": "LHR", "name": "Heathrow Airport", "city": "London"},
+        {"code": "LGW", "name": "Gatwick Airport", "city": "London"},
+        {"code": "MAN", "name": "Manchester Airport", "city": "Manchester"},
+        {"code": "EDI", "name": "Edinburgh Airport", "city": "Edinburgh"}
+      ]
+    },
+    {
+      "country": "France",
+      "country_code": "FR",
+      "airports": [
+        {"code": "CDG", "name": "Charles de Gaulle Airport", "city": "Paris"},
+        {"code": "ORY", "name": "Orly Airport", "city": "Paris"},
+        {"code": "NCE", "name": "Nice Côte d'Azur Airport", "city": "Nice"},
+        {"code": "LYS", "name": "Lyon-Saint Exupéry Airport", "city": "Lyon"}
+      ]
+    },
+    {
+      "country": "Germany",
+      "country_code": "DE",
+      "airports": [
+        {"code": "FRA", "name": "Frankfurt Airport", "city": "Frankfurt"},
+        {"code": "MUC", "name": "Munich Airport", "city": "Munich"},
+        {"code": "BER", "name": "Berlin Brandenburg Airport", "city": "Berlin"},
+        {"code": "DUS", "name": "Düsseldorf Airport", "city": "Düsseldorf"}
+      ]
+    },
+    {
+      "country": "Japan",
+      "country_code": "JP",
+      "airports": [
+        {"code": "HND", "name": "Haneda Airport", "city": "Tokyo"},
+        {"code": "NRT", "name": "Narita International Airport", "city": "Tokyo"},
+        {"code": "KIX", "name": "Kansai International Airport", "city": "Osaka"},
+        {"code": "CTS", "name": "New Chitose Airport", "city": "Sapporo"}
+      ]
+    },
+    {
+      "country": "United Arab Emirates",
+      "country_code": "AE",
+      "airports": [
+        {"code": "DXB", "name": "Dubai International Airport", "city": "Dubai"},
+        {"code": "AUH", "name": "Abu Dhabi International Airport", "city": "Abu Dhabi"},
+        {"code": "SHJ", "name": "Sharjah International Airport", "city": "Sharjah"}
+      ]
+    },
+    {
+      "country": "Singapore",
+      "country_code": "SG",
+      "airports": [
+        {"code": "SIN", "name": "Singapore Changi Airport", "city": "Singapore"}
+      ]
+    },
+    {
+      "country": "Australia",
+      "country_code": "AU",
+      "airports": [
+        {"code": "SYD", "name": "Sydney Kingsford Smith Airport", "city": "Sydney"},
+        {"code": "MEL", "name": "Melbourne Airport", "city": "Melbourne"},
+        {"code": "BNE", "name": "Brisbane Airport", "city": "Brisbane"},
+        {"code": "PER", "name": "Perth Airport", "city": "Perth"}
+      ]
+    },
+    {
+      "country": "Canada",
+      "country_code": "CA",
+      "airports": [
+        {"code": "YYZ", "name": "Toronto Pearson International Airport", "city": "Toronto"},
+        {"code": "YVR", "name": "Vancouver International Airport", "city": "Vancouver"},
+        {"code": "YUL", "name": "Montréal-Pierre Elliott Trudeau International Airport", "city": "Montreal"},
+        {"code": "YYC", "name": "Calgary International Airport", "city": "Calgary"}
+      ]
+    },
+    {
+      "country": "South Korea",
+      "country_code": "KR",
+      "airports": [
+        {"code": "ICN", "name": "Incheon International Airport", "city": "Seoul"},
+        {"code": "GMP", "name": "Gimpo International Airport", "city": "Seoul"},
+        {"code": "PUS", "name": "Busan Airport", "city": "Busan"}
+      ]
+    },
+    {
+      "country": "Qatar",
+      "country_code": "QA",
+      "airports": [
+        {"code": "DOH", "name": "Hamad International Airport", "city": "Doha"}
+      ]
+    },
+    {
+      "country": "Netherlands",
+      "country_code": "NL",
+      "airports": [
+        {"code": "AMS", "name": "Amsterdam Airport Schiphol", "city": "Amsterdam"}
+      ]
+    },
+    {
+      "country": "Switzerland",
+      "country_code": "CH",
+      "airports": [
+        {"code": "ZUR", "name": "Zurich Airport", "city": "Zurich"},
+        {"code": "GVA", "name": "Geneva Airport", "city": "Geneva"}
+      ]
+    },
+    {
+      "country": "Spain",
+      "country_code": "ES",
+      "airports": [
+        {"code": "MAD", "name": "Adolfo Suárez Madrid–Barajas Airport", "city": "Madrid"},
+        {"code": "BCN", "name": "Barcelona–El Prat Airport", "city": "Barcelona"},
+        {"code": "PMI", "name": "Palma de Mallorca Airport", "city": "Palma"}
+      ]
+    },
+    {
+      "country": "Turkey",
+      "country_code": "TR",
+      "airports": [
+        {"code": "IST", "name": "Istanbul Airport", "city": "Istanbul"},
+        {"code": "SAW", "name": "Sabiha Gökçen International Airport", "city": "Istanbul"},
+        {"code": "AYT", "name": "Antalya Airport", "city": "Antalya"}
+      ]
+    },
+    {
+      "country": "Hong Kong",
+      "country_code": "HK",
+      "airports": [
+        {"code": "HKG", "name": "Hong Kong International Airport", "city": "Hong Kong"}
+      ]
+    },
+    {
+      "country": "Austria",
+      "country_code": "AT",
+      "airports": [
+        {"code": "VIE", "name": "Vienna International Airport", "city": "Vienna"}
+      ]
+    },
+    {
+      "country": "Portugal",
+      "country_code": "PT",
+      "airports": [
+        {"code": "LIS", "name": "Lisbon Airport", "city": "Lisbon"},
+        {"code": "OPO", "name": "Francisco Sá Carneiro Airport", "city": "Porto"}
+      ]
+    },
+    {
+      "country": "Mexico",
+      "country_code": "MX",
+      "airports": [
+        {"code": "MEX", "name": "Mexico City International Airport", "city": "Mexico City"},
+        {"code": "CUN", "name": "Cancún International Airport", "city": "Cancún"},
+        {"code": "GDL", "name": "Guadalajara Airport", "city": "Guadalajara"}
+      ]
+    },
+    {
+      "country": "Ethiopia",
+      "country_code": "ET",
+      "airports": [
+        {"code": "ADD", "name": "Addis Ababa Bole International Airport", "city": "Addis Ababa"}
+      ]
+    },
+    {
+      "country": "Indonesia",
+      "country_code": "ID",
+      "airports": [
+        {"code": "CGK", "name": "Soekarno-Hatta International Airport", "city": "Jakarta"},
+        {"code": "DPS", "name": "Ngurah Rai International Airport", "city": "Denpasar (Bali)"},
+        {"code": "SUB", "name": "Juanda International Airport", "city": "Surabaya"},
+        {"code": "MLG", "name": "Abdul Rachman Saleh Airport", "city": "Malang"},
+        {"code": "YIA", "name": "Yogyakarta International Airport", "city": "Yogyakarta"},
+        {"code": "MDC", "name": "Sam Ratulangi International Airport", "city": "Manado"},
+        {"code": "BPN", "name": "Sultan Aji Muhammad Sulaiman Airport", "city": "Balikpapan"},
+        {"code": "PLM", "name": "Sultan Mahmud Badaruddin II Airport", "city": "Palembang"}
+      ]
+    },
+    {
+      "country": "Malaysia",
+      "country_code": "MY",
+      "airports": [
+        {"code": "KUL", "name": "Kuala Lumpur International Airport", "city": "Kuala Lumpur"},
+        {"code": "SZB", "name": "Sultan Abdul Aziz Shah Airport", "city": "Subang"},
+        {"code": "PEN", "name": "Penang International Airport", "city": "Penang"},
+        {"code": "JHB", "name": "Senai International Airport", "city": "Johor Bahru"},
+        {"code": "KCH", "name": "Kuching International Airport", "city": "Kuching"},
+        {"code": "BKI", "name": "Kota Kinabalu International Airport", "city": "Kota Kinabalu"},
+        {"code": "LGK", "name": "Langkawi International Airport", "city": "Langkawi"}
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "country_code": "VN",
+      "airports": [
+        {"code": "SGN", "name": "Tan Son Nhat International Airport", "city": "Ho Chi Minh City"},
+        {"code": "HAN", "name": "Noi Bai International Airport", "city": "Hanoi"},
+        {"code": "DAD", "name": "Da Nang International Airport", "city": "Da Nang"},
+        {"code": "CXR", "name": "Cam Ranh International Airport", "city": "Nha Trang"},
+        {"code": "PQC", "name": "Phu Quoc International Airport", "city": "Phu Quoc"},
+        {"code": "HPH", "name": "Cat Bi International Airport", "city": "Hai Phong"}
+      ]
+    },
+    {
+      "country": "Thailand",
+      "country_code": "TH",
+      "airports": [
+        {"code": "BKK", "name": "Suvarnabhumi Airport", "city": "Bangkok"},
+        {"code": "DMK", "name": "Don Mueang International Airport", "city": "Bangkok"},
+        {"code": "CNX", "name": "Chiang Mai International Airport", "city": "Chiang Mai"},
+        {"code": "HKT", "name": "Phuket International Airport", "city": "Phuket"},
+        {"code": "USM", "name": "Koh Samui Airport", "city": "Koh Samui"},
+        {"code": "UTP", "name": "U-Tapao International Airport", "city": "Pattaya"}
+      ]
+    },
+    {
+      "country": "Philippines",
+      "country_code": "PH",
+      "airports": [
+        {"code": "MNL", "name": "Ninoy Aquino International Airport", "city": "Manila"},
+        {"code": "CEB", "name": "Mactan-Cebu International Airport", "city": "Cebu"},
+        {"code": "DVO", "name": "Francisco Bangoy International Airport", "city": "Davao"},
+        {"code": "ILO", "name": "Iloilo International Airport", "city": "Iloilo"},
+        {"code": "CRK", "name": "Clark International Airport", "city": "Angeles City"},
+        {"code": "BCD", "name": "Bacolod-Silay Airport", "city": "Bacolod"}
+      ]
+    },
+    {
+      "country": "India",
+      "country_code": "IN",
+      "airports": [
+        {"code": "DEL", "name": "Indira Gandhi International Airport", "city": "New Delhi"},
+        {"code": "BOM", "name": "Chhatrapati Shivaji Maharaj International Airport", "city": "Mumbai"},
+        {"code": "BLR", "name": "Kempegowda International Airport", "city": "Bangalore"},
+        {"code": "MAA", "name": "Chennai International Airport", "city": "Chennai"},
+        {"code": "HYD", "name": "Rajiv Gandhi International Airport", "city": "Hyderabad"},
+        {"code": "CCU", "name": "Netaji Subhas Chandra Bose International Airport", "city": "Kolkata"},
+        {"code": "GOI", "name": "Goa International Airport", "city": "Goa"},
+        {"code": "COK", "name": "Cochin International Airport", "city": "Kochi"}
+      ]
+    },
+    {
+      "country": "China",
+      "country_code": "CN",
+      "airports": [
+        {"code": "PEK", "name": "Beijing Capital International Airport", "city": "Beijing"},
+        {"code": "PVG", "name": "Shanghai Pudong International Airport", "city": "Shanghai"},
+        {"code": "CAN", "name": "Guangzhou Baiyun International Airport", "city": "Guangzhou"},
+        {"code": "SZX", "name": "Shenzhen Bao'an International Airport", "city": "Shenzhen"},
+        {"code": "CTU", "name": "Chengdu Shuangliu International Airport", "city": "Chengdu"},
+        {"code": "XIY", "name": "Xi'an Xianyang International Airport", "city": "Xi'an"}
+      ]
+    }
+  ],
+  "popular_routes": [
+    {"from": "JFK", "to": "LHR", "type": "transatlantic"},
+    {"from": "LAX", "to": "NRT", "type": "transpacific"},
+    {"from": "DXB", "to": "SIN", "type": "middle_east_asia"},
+    {"from": "CDG", "to": "JFK", "type": "transatlantic"},
+    {"from": "FRA", "to": "ORD", "type": "transatlantic"},
+    {"from": "DOH", "to": "SYD", "type": "middle_east_oceania"},
+    {"from": "ICN", "to": "LAX", "type": "transpacific"},
+    {"from": "AMS", "to": "ATL", "type": "transatlantic"},
+    {"from": "IST", "to": "JFK", "type": "europe_america"},
+    {"from": "HKG", "to": "SFO", "type": "transpacific"},
+    {"from": "CGK", "to": "SIN", "type": "southeast_asia"},
+    {"from": "KUL", "to": "BKK", "type": "southeast_asia"},
+    {"from": "SIN", "to": "BKK", "type": "southeast_asia"},
+    {"from": "BKK", "to": "SIN", "type": "southeast_asia"},
+    {"from": "SGN", "to": "HAN", "type": "domestic_vietnam"},
+    {"from": "MNL", "to": "CEB", "type": "domestic_philippines"},
+    {"from": "DPS", "to": "CGK", "type": "domestic_indonesia"},
+    {"from": "BOM", "to": "DEL", "type": "domestic_india"},
+    {"from": "PVG", "to": "PEK", "type": "domestic_china"},
+    {"from": "CGK", "to": "KUL", "type": "southeast_asia"},
+    {"from": "BKK", "to": "SGN", "type": "southeast_asia"},
+    {"from": "SIN", "to": "HKG", "type": "southeast_asia"}
+  ]
+}

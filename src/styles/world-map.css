@@ -1,0 +1,14 @@
+@keyframes pulse-dot {
+	0% {
+		r: 2px;
+		opacity: 0.5;
+	}
+	100% {
+		r: 6px;
+		opacity: 0;
+	}
+}
+
+.pulse-animation {
+	animation: pulse-dot 2s infinite;
+}

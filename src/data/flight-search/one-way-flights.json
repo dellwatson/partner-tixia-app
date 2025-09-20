@@ -1,0 +1,574 @@
+{
+  "one_way_flights": [
+    {
+      "id": "OW001",
+      "route": {
+        "from": {"code": "ICN", "city": "Seoul", "country": "South Korea"},
+        "to": {"code": "LAX", "city": "Los Angeles", "country": "United States"}
+      },
+      "flight_type": "direct",
+      "airline": {"code": "KE", "name": "Korean Air"},
+      "flight_number": "KE17",
+      "duration": "11h 30m",
+      "aircraft": "Boeing 747-8",
+      "classes": {
+        "economy": {"price": 780, "available_seats": 68, "baggage": "2x23kg", "meal": "included", "entertainment": "personal screen"},
+        "premium_economy": {"price": 1450, "available_seats": 32, "baggage": "2x23kg", "meal": "premium", "entertainment": "personal screen + amenity kit"},
+        "business": {"price": 3800, "available_seats": 18, "baggage": "2x32kg", "meal": "à la carte", "entertainment": "lie-flat seat + premium amenities"},
+        "first": {"price": 7500, "available_seats": 6, "baggage": "3x32kg", "meal": "chef's selection", "entertainment": "private suite + concierge"}
+      }
+    },
+    {
+      "id": "OW002",
+      "route": {
+        "from": {"code": "SIN", "city": "Singapore", "country": "Singapore"},
+        "to": {"code": "BKK", "city": "Bangkok", "country": "Thailand"}
+      },
+      "flight_type": "direct",
+      "airline": {"code": "SQ", "name": "Singapore Airlines"},
+      "flight_number": "SQ711",
+      "duration": "2h 20m",
+      "aircraft": "Airbus A350-900",
+      "classes": {
+        "economy": {"price": 280, "available_seats": 95, "baggage": "2x23kg", "meal": "included", "entertainment": "personal screen"},
+        "premium_economy": {"price": 520, "available_seats": 28, "baggage": "2x23kg", "meal": "premium", "entertainment": "personal screen + extra legroom"},
+        "business": {"price": 1200, "available_seats": 24, "baggage": "2x32kg", "meal": "à la carte", "entertainment": "lie-flat seat + SilverKris lounge"},
+        "first": {"price": 2800, "available_seats": 6, "baggage": "3x32kg", "meal": "chef's selection", "entertainment": "private suite + first class lounge"}
+      }
+    },
+    {
+      "id": "OW003",
+      "route": {
+        "from": {"code": "BKK", "city": "Bangkok", "country": "Thailand"},
+        "to": {"code": "SIN", "city": "Singapore", "country": "Singapore"}
+      },
+      "flight_type": "direct",
+      "airline": {"code": "TG", "name": "Thai Airways"},
+      "flight_number": "TG405",
+      "duration": "2h 25m",
+      "aircraft": "Boeing 777-300ER",
+      "classes": {
+        "economy": {"price": 275, "available_seats": 88, "baggage": "2x23kg", "meal": "included", "entertainment": "personal screen"},
+        "premium_economy": {"price": 510, "available_seats": 32, "baggage": "2x23kg", "meal": "premium", "entertainment": "personal screen + extra space"},
+        "business": {"price": 1150, "available_seats": 26, "baggage": "2x32kg", "meal": "à la carte", "entertainment": "lie-flat seat + Royal Orchid lounge"},
+        "first": {"price": 2650, "available_seats": 8, "baggage": "3x32kg", "meal": "chef's selection", "entertainment": "private suite + Royal First lounge"}
+      }
+    },
+    {
+      "id": "OW004",
+      "route": {
+        "from": {"code": "CGK", "city": "Jakarta", "country": "Indonesia"},
+        "to": {"code": "SIN", "city": "Singapore", "country": "Singapore"}
+      },
+      "flight_type": "direct",
+      "airline": {"code": "GA", "name": "Garuda Indonesia"},
+      "flight_number": "GA836",
+      "duration": "1h 45m",
+      "aircraft": "Boeing 737-800",
+      "classes": {
+        "economy": {"price": 180, "available_seats": 85, "baggage": "1x20kg", "meal": "snack", "entertainment": "overhead screen"},
+        "business": {"price": 420, "available_seats": 12, "baggage": "2x23kg", "meal": "full meal", "entertainment": "personal screen + lounge access"}
+      }
+    },
+    {
+      "id": "OW005",
+      "route": {
+        "from": {"code": "KUL", "city": "Kuala Lumpur", "country": "Malaysia"},
+        "to": {"code": "BKK", "city": "Bangkok", "country": "Thailand"}
+      },
+      "flight_type": "direct",
+      "airline": {"code": "MH", "name": "Malaysia Airlines"},
+      "flight_number": "MH780",
+      "duration": "2h 05m",
+      "aircraft": "Airbus A330-300",
+      "classes": {
+        "economy": {"price": 240, "available_seats": 78, "baggage": "2x23kg", "meal": "included", "entertainment": "personal screen"},
+        "business": {"price": 680, "available_seats": 18, "baggage": "2x32kg", "meal": "à la carte", "entertainment": "lie-flat seat + Golden Lounge"}
+      }
+    },
+    {
+      "id": "OW006",
+      "route": {
+        "from": {"code": "SGN", "city": "Ho Chi Minh City", "country": "Vietnam"},
+        "to": {"code": "HAN", "city": "Hanoi", "country": "Vietnam"}
+      },
+      "flight_type": "direct",
+      "airline": {"code": "VN", "name": "Vietnam Airlines"},
+      "flight_number": "VN210",
+      "duration": "2h 15m",
+      "aircraft": "Airbus A321",
+      "classes": {
+        "economy": {"price": 120, "available_seats": 92, "baggage": "1x20kg", "meal": "snack", "entertainment": "overhead screen"},
+        "business": {"price": 320, "available_seats": 16, "baggage": "2x23kg", "meal": "full meal", "entertainment": "personal screen + lounge access"}
+      }
+    },
+    {
+      "id": "OW007",
+      "route": {
+        "from": {"code": "MNL", "city": "Manila", "country": "Philippines"},
+        "to": {"code": "CEB", "city": "Cebu", "country": "Philippines"}
+      },
+      "flight_type": "direct",
+      "airline": {"code": "PR", "name": "Philippine Airlines"},
+      "flight_number": "PR1859",
+      "duration": "1h 35m",
+      "aircraft": "Airbus A321",
+      "classes": {
+        "economy": {"price": 95, "available_seats": 108, "baggage": "1x20kg", "meal": "snack", "entertainment": "personal device"},
+        "business": {"price": 280, "available_seats": 12, "baggage": "2x23kg", "meal": "full meal", "entertainment": "personal screen + Mabuhay lounge"}
+      }
+    },
+    {
+      "id": "OW008",
+      "route": {
+        "from": {"code": "AMS", "city": "Amsterdam", "country": "Netherlands"},
+        "to": {"code": "ATL", "city": "Atlanta", "country": "United States"}
+      },
+      "flight_type": "transit",
+      "segments": [
+        {
+          "airline": {"code": "KL", "name": "KLM"},
+          "flight_number": "KL641",
+          "from": "AMS",
+          "to": "CDG",
+          "duration": "1h 15m",
+          "aircraft": "Boeing 737-800"
+        },
+        {
+          "airline": {"code": "AF", "name": "Air France"},
+          "flight_number": "AF682",
+          "from": "CDG",
+          "to": "ATL",
+          "duration": "9h 25m",
+          "aircraft": "Airbus A330-200",
+          "layover": "2h 30m"
+        }
+      ],
+      "total_duration": "13h 10m",
+      "classes": {
+        "economy": {"price": 650, "available_seats": 58, "baggage": "1x23kg", "meal": "included", "entertainment": "personal screen"},
+        "premium_economy": {"price": 1200, "available_seats": 26, "baggage": "2x23kg", "meal": "premium", "entertainment": "personal screen + extra legroom"},
+        "business": {"price": 2900, "available_seats": 20, "baggage": "2x32kg", "meal": "à la carte", "entertainment": "lie-flat seat + lounge access"}
+      }
+    },
+    {
+      "id": "OW003",
+      "route": {
+        "from": {"code": "IST", "city": "Istanbul", "country": "Turkey"},
+        "to": {"code": "JFK", "city": "New York", "country": "United States"}
+      },
+      "flight_type": "direct",
+      "airline": {"code": "TK", "name": "Turkish Airlines"},
+      "flight_number": "TK1",
+      "duration": "12h 10m",
+      "aircraft": "Boeing 777-300ER",
+      "classes": {
+        "economy": {"price": 720, "available_seats": 74, "baggage": "2x23kg", "meal": "included", "entertainment": "personal screen"},
+        "premium_economy": {"price": 1380, "available_seats": 28, "baggage": "2x23kg", "meal": "premium", "entertainment": "personal screen + amenity kit"},
+        "business": {"price": 3200, "available_seats": 24, "baggage": "2x32kg", "meal": "à la carte", "entertainment": "lie-flat seat + Turkish lounge access"},
+        "first": {"price": 6800, "available_seats": 8, "baggage": "3x32kg", "meal": "chef's selection", "entertainment": "private suite + spa access"}
+      }
+    },
+    {
+      "id": "OW004",
+      "route": {
+        "from": {"code": "HKG", "city": "Hong Kong", "country": "Hong Kong"},
+        "to": {"code": "SFO", "city": "San Francisco", "country": "United States"}
+      },
+      "flight_type": "direct",
+      "airline": {"code": "CX", "name": "Cathay Pacific"},
+      "flight_number": "CX872",
+      "duration": "11h 45m",
+      "aircraft": "Airbus A350-900",
+      "classes": {
+        "economy": {"price": 820, "available_seats": 64, "baggage": "2x23kg", "meal": "included", "entertainment": "personal screen"},
+        "premium_economy": {"price": 1550, "available_seats": 24, "baggage": "2x23kg", "meal": "premium", "entertainment": "personal screen + extra space"},
+        "business": {"price": 4100, "available_seats": 16, "baggage": "2x32kg", "meal": "à la carte", "entertainment": "lie-flat seat + The Wing lounge"},
+        "first": {"price": 8200, "available_seats": 6, "baggage": "3x32kg", "meal": "chef's selection", "entertainment": "private suite + The Pier First lounge"}
+      }
+    },
+    {
+      "id": "OW005",
+      "route": {
+        "from": {"code": "ZUR", "city": "Zurich", "country": "Switzerland"},
+        "to": {"code": "SIN", "city": "Singapore", "country": "Singapore"}
+      },
+      "flight_type": "transit",
+      "segments": [
+        {
+          "airline": {"code": "LX", "name": "Swiss"},
+          "flight_number": "LX181",
+          "from": "ZUR",
+          "to": "DXB",
+          "duration": "6h 20m",
+          "aircraft": "Airbus A330-300"
+        },
+        {
+          "airline": {"code": "EK", "name": "Emirates"},
+          "flight_number": "EK354",
+          "from": "DXB",
+          "to": "SIN",
+          "duration": "7h 25m",
+          "aircraft": "Airbus A380-800",
+          "layover": "2h 45m"
+        }
+      ],
+      "total_duration": "16h 30m",
+      "classes": {
+        "economy": {"price": 890, "available_seats": 52, "baggage": "2x23kg", "meal": "included", "entertainment": "personal screen"},
+        "premium_economy": {"price": 1650, "available_seats": 22, "baggage": "2x23kg", "meal": "premium", "entertainment": "personal screen + amenity kit"},
+        "business": {"price": 3900, "available_seats": 18, "baggage": "2x32kg", "meal": "à la carte", "entertainment": "lie-flat seat + lounge access"},
+        "first": {"price": 7800, "available_seats": 8, "baggage": "3x32kg", "meal": "chef's selection", "entertainment": "private suite + spa access"}
+      }
+    },
+    {
+      "id": "OW006",
+      "route": {
+        "from": {"code": "VIE", "city": "Vienna", "country": "Austria"},
+        "to": {"code": "MEL", "city": "Melbourne", "country": "Australia"}
+      },
+      "flight_type": "transit",
+      "segments": [
+        {
+          "airline": {"code": "OS", "name": "Austrian Airlines"},
+          "flight_number": "OS127",
+          "from": "VIE",
+          "to": "DOH",
+          "duration": "5h 45m",
+          "aircraft": "Boeing 777-200ER"
+        },
+        {
+          "airline": {"code": "QR", "name": "Qatar Airways"},
+          "flight_number": "QR914",
+          "from": "DOH",
+          "to": "MEL",
+          "duration": "13h 50m",
+          "aircraft": "Airbus A350-1000",
+          "layover": "3h 15m"
+        }
+      ],
+      "total_duration": "22h 50m",
+      "classes": {
+        "economy": {"price": 1150, "available_seats": 48, "baggage": "2x23kg", "meal": "included", "entertainment": "personal screen"},
+        "premium_economy": {"price": 2100, "available_seats": 20, "baggage": "2x23kg", "meal": "premium", "entertainment": "personal screen + extra comfort"},
+        "business": {"price": 4800, "available_seats": 16, "baggage": "2x32kg", "meal": "à la carte", "entertainment": "lie-flat seat + Al Mourjan lounge"},
+        "first": {"price": 9500, "available_seats": 6, "baggage": "3x32kg", "meal": "chef's selection", "entertainment": "private suite + Al Safwa First lounge"}
+      }
+    },
+    {
+      "id": "OW007",
+      "route": {
+        "from": {"code": "LIS", "city": "Lisbon", "country": "Portugal"},
+        "to": {"code": "YYZ", "city": "Toronto", "country": "Canada"}
+      },
+      "flight_type": "direct",
+      "airline": {"code": "TP", "name": "TAP Portugal"},
+      "flight_number": "TP259",
+      "duration": "7h 50m",
+      "aircraft": "Airbus A330-900neo",
+      "classes": {
+        "economy": {"price": 580, "available_seats": 62, "baggage": "1x23kg", "meal": "included", "entertainment": "personal screen"},
+        "premium_economy": {"price": 1050, "available_seats": 21, "baggage": "2x23kg", "meal": "premium", "entertainment": "personal screen + extra legroom"},
+        "business": {"price": 2600, "available_seats": 14, "baggage": "2x32kg", "meal": "à la carte", "entertainment": "lie-flat seat + TAP Premium lounge"}
+      }
+    },
+    {
+      "id": "OW008",
+      "route": {
+        "from": {"code": "MEX", "city": "Mexico City", "country": "Mexico"},
+        "to": {"code": "MAD", "city": "Madrid", "country": "Spain"}
+      },
+      "flight_type": "transit",
+      "segments": [
+        {
+          "airline": {"code": "Y4", "name": "Volaris"},
+          "flight_number": "Y4928",
+          "from": "MEX",
+          "to": "JFK",
+          "duration": "5h 45m",
+          "aircraft": "Airbus A321neo"
+        },
+        {
+          "airline": {"code": "IB", "name": "Iberia"},
+          "flight_number": "IB6250",
+          "from": "JFK",
+          "to": "MAD",
+          "duration": "7h 30m",
+          "aircraft": "Airbus A330-200",
+          "layover": "4h 20m"
+        }
+      ],
+      "total_duration": "17h 35m",
+      "classes": {
+        "economy": {"price": 750, "available_seats": 56, "baggage": "1x23kg", "meal": "included", "entertainment": "personal screen"},
+        "premium_economy": {"price": 1350, "available_seats": 18, "baggage": "2x23kg", "meal": "premium", "entertainment": "personal screen + extra space"},
+        "business": {"price": 3100, "available_seats": 12, "baggage": "2x32kg", "meal": "à la carte", "entertainment": "lie-flat seat + Velázquez VIP lounge"}
+      }
+    },
+    {
+      "id": "OW009",
+      "route": {
+        "from": {"code": "ADD", "city": "Addis Ababa", "country": "Ethiopia"},
+        "to": {"code": "CDG", "city": "Paris", "country": "France"}
+      },
+      "flight_type": "direct",
+      "airline": {"code": "ET", "name": "Ethiopian Airlines"},
+      "flight_number": "ET713",
+      "duration": "7h 15m",
+      "aircraft": "Boeing 787-8",
+      "classes": {
+        "economy": {"price": 520, "available_seats": 72, "baggage": "2x23kg", "meal": "included", "entertainment": "personal screen"},
+        "premium_economy": {"price": 950, "available_seats": 28, "baggage": "2x23kg", "meal": "premium", "entertainment": "personal screen + amenity kit"},
+        "business": {"price": 2200, "available_seats": 20, "baggage": "2x32kg", "meal": "à la carte", "entertainment": "lie-flat seat + Cloud Nine lounge"}
+      }
+    },
+    {
+      "id": "OW010",
+      "route": {
+        "from": {"code": "BNE", "city": "Brisbane", "country": "Australia"},
+        "to": {"code": "HND", "city": "Tokyo", "country": "Japan"}
+      },
+      "flight_type": "direct",
+      "airline": {"code": "JQ", "name": "Jetstar Airways"},
+      "flight_number": "JQ15",
+      "duration": "8h 45m",
+      "aircraft": "Boeing 787-8",
+      "classes": {
+        "economy": {"price": 420, "available_seats": 85, "baggage": "1x20kg", "meal": "for purchase", "entertainment": "personal device"},
+        "premium_economy": {"price": 780, "available_seats": 24, "baggage": "2x23kg", "meal": "included", "entertainment": "personal screen + extra legroom"},
+        "business": {"price": 1950, "available_seats": 18, "baggage": "2x32kg", "meal": "premium", "entertainment": "lie-flat seat + Jetstar lounge"}
+      }
+    },
+    {
+      "id": "OW011",
+      "route": {
+        "from": {"code": "DPS", "city": "Denpasar (Bali)", "country": "Indonesia"},
+        "to": {"code": "KUL", "city": "Kuala Lumpur", "country": "Malaysia"}
+      },
+      "flight_type": "direct",
+      "airline": {"code": "GA", "name": "Garuda Indonesia"},
+      "flight_number": "GA842",
+      "duration": "2h 30m",
+      "aircraft": "Airbus A330-200",
+      "classes": {
+        "economy": {"price": 220, "available_seats": 72, "baggage": "1x20kg", "meal": "included", "entertainment": "personal screen"},
+        "premium_economy": {"price": 380, "available_seats": 24, "baggage": "2x23kg", "meal": "premium", "entertainment": "personal screen + extra legroom"},
+        "business": {"price": 850, "available_seats": 16, "baggage": "2x32kg", "meal": "à la carte", "entertainment": "lie-flat seat + Garuda Indonesia lounge"}
+      }
+    },
+    {
+      "id": "OW012",
+      "route": {
+        "from": {"code": "BKK", "city": "Bangkok", "country": "Thailand"},
+        "to": {"code": "HKT", "city": "Phuket", "country": "Thailand"}
+      },
+      "flight_type": "direct",
+      "airline": {"code": "TG", "name": "Thai Airways"},
+      "flight_number": "TG221",
+      "duration": "1h 25m",
+      "aircraft": "Airbus A320",
+      "classes": {
+        "economy": {"price": 95, "available_seats": 118, "baggage": "1x20kg", "meal": "snack", "entertainment": "overhead screen"},
+        "business": {"price": 280, "available_seats": 12, "baggage": "2x23kg", "meal": "full meal", "entertainment": "personal screen + Royal Orchid lounge"}
+      }
+    },
+    {
+      "id": "OW013",
+      "route": {
+        "from": {"code": "SUB", "city": "Surabaya", "country": "Indonesia"},
+        "to": {"code": "CGK", "city": "Jakarta", "country": "Indonesia"}
+      },
+      "flight_type": "direct",
+      "airline": {"code": "GA", "name": "Garuda Indonesia"},
+      "flight_number": "GA324",
+      "duration": "1h 30m",
+      "aircraft": "Boeing 737-800",
+      "classes": {
+        "economy": {"price": 85, "available_seats": 125, "baggage": "1x20kg", "meal": "snack", "entertainment": "overhead screen"},
+        "business": {"price": 220, "available_seats": 12, "baggage": "2x23kg", "meal": "full meal", "entertainment": "personal screen + lounge access"}
+      }
+    },
+    {
+      "id": "OW014",
+      "route": {
+        "from": {"code": "DEL", "city": "New Delhi", "country": "India"},
+        "to": {"code": "BOM", "city": "Mumbai", "country": "India"}
+      },
+      "flight_type": "direct",
+      "airline": {"code": "6E", "name": "IndiGo"},
+      "flight_number": "6E131",
+      "duration": "2h 15m",
+      "aircraft": "Airbus A320neo",
+      "classes": {
+        "economy": {"price": 75, "available_seats": 138, "baggage": "1x15kg", "meal": "for purchase", "entertainment": "personal device"}
+      }
+    },
+    {
+      "id": "OW015",
+      "route": {
+        "from": {"code": "PEK", "city": "Beijing", "country": "China"},
+        "to": {"code": "PVG", "city": "Shanghai", "country": "China"}
+      },
+      "flight_type": "direct",
+      "airline": {"code": "CA", "name": "Air China"},
+      "flight_number": "CA1502",
+      "duration": "2h 30m",
+      "aircraft": "Airbus A321",
+      "classes": {
+        "economy": {"price": 120, "available_seats": 145, "baggage": "2x23kg", "meal": "included", "entertainment": "personal screen"},
+        "business": {"price": 380, "available_seats": 16, "baggage": "2x32kg", "meal": "premium", "entertainment": "lie-flat seat + First Class lounge"}
+      }
+    },
+    {
+      "id": "OW016",
+      "route": {
+        "from": {"code": "SYD", "city": "Sydney", "country": "Australia"},
+        "to": {"code": "CGK", "city": "Jakarta", "country": "Indonesia"}
+      },
+      "flight_type": "direct",
+      "airline": {"code": "QF", "name": "Qantas"},
+      "flight_number": "QF41",
+      "duration": "7h 20m",
+      "aircraft": "Airbus A330-300",
+      "classes": {
+        "economy": {"price": 520, "available_seats": 68, "baggage": "2x23kg", "meal": "included", "entertainment": "personal screen"},
+        "premium_economy": {"price": 980, "available_seats": 28, "baggage": "2x23kg", "meal": "premium", "entertainment": "personal screen + extra legroom"},
+        "business": {"price": 2200, "available_seats": 20, "baggage": "2x32kg", "meal": "à la carte", "entertainment": "lie-flat seat + Qantas Club"}
+      }
+    },
+    {
+      "id": "OW017",
+      "route": {
+        "from": {"code": "LHR", "city": "London", "country": "United Kingdom"},
+        "to": {"code": "CGK", "city": "Jakarta", "country": "Indonesia"}
+      },
+      "flight_type": "transit",
+      "segments": [
+        {
+          "airline": {"code": "BA", "name": "British Airways"},
+          "flight_number": "BA11",
+          "from": "LHR",
+          "to": "SIN",
+          "duration": "13h 45m",
+          "aircraft": "Airbus A350-1000"
+        },
+        {
+          "airline": {"code": "SQ", "name": "Singapore Airlines"},
+          "flight_number": "SQ962",
+          "from": "SIN",
+          "to": "CGK",
+          "duration": "1h 45m",
+          "aircraft": "Boeing 737-800",
+          "layover": "2h 15m"
+        }
+      ],
+      "total_duration": "17h 45m",
+      "classes": {
+        "economy": {"price": 680, "available_seats": 52, "baggage": "2x23kg", "meal": "included", "entertainment": "personal screen"},
+        "premium_economy": {"price": 1280, "available_seats": 22, "baggage": "2x23kg", "meal": "premium", "entertainment": "personal screen + extra space"},
+        "business": {"price": 3200, "available_seats": 18, "baggage": "2x32kg", "meal": "à la carte", "entertainment": "lie-flat seat + lounge access"}
+      }
+    },
+    {
+      "id": "OW018",
+      "route": {
+        "from": {"code": "JFK", "city": "New York", "country": "United States"},
+        "to": {"code": "BKK", "city": "Bangkok", "country": "Thailand"}
+      },
+      "flight_type": "transit",
+      "segments": [
+        {
+          "airline": {"code": "UA", "name": "United Airlines"},
+          "flight_number": "UA1",
+          "from": "JFK",
+          "to": "NRT",
+          "duration": "14h 10m",
+          "aircraft": "Boeing 777-300ER"
+        },
+        {
+          "airline": {"code": "NH", "name": "All Nippon Airways"},
+          "flight_number": "NH847",
+          "from": "NRT",
+          "to": "BKK",
+          "duration": "6h 40m",
+          "aircraft": "Boeing 787-9",
+          "layover": "3h 20m"
+        }
+      ],
+      "total_duration": "24h 10m",
+      "classes": {
+        "economy": {"price": 950, "available_seats": 48, "baggage": "2x23kg", "meal": "included", "entertainment": "personal screen"},
+        "premium_economy": {"price": 1850, "available_seats": 20, "baggage": "2x23kg", "meal": "premium", "entertainment": "personal screen + extra comfort"},
+        "business": {"price": 4200, "available_seats": 16, "baggage": "2x32kg", "meal": "à la carte", "entertainment": "lie-flat seat + Star Alliance lounges"}
+      }
+    },
+    {
+      "id": "OW019",
+      "route": {
+        "from": {"code": "DXB", "city": "Dubai", "country": "United Arab Emirates"},
+        "to": {"code": "CGK", "city": "Jakarta", "country": "Indonesia"}
+      },
+      "flight_type": "direct",
+      "airline": {"code": "EK", "name": "Emirates"},
+      "flight_number": "EK357",
+      "duration": "8h 25m",
+      "aircraft": "Airbus A380-800",
+      "classes": {
+        "economy": {"price": 480, "available_seats": 85, "baggage": "2x23kg", "meal": "included", "entertainment": "personal screen"},
+        "premium_economy": {"price": 920, "available_seats": 32, "baggage": "2x23kg", "meal": "premium", "entertainment": "personal screen + extra legroom"},
+        "business": {"price": 2800, "available_seats": 24, "baggage": "2x32kg", "meal": "à la carte", "entertainment": "lie-flat seat + Emirates lounge"},
+        "first": {"price": 6200, "available_seats": 8, "baggage": "3x32kg", "meal": "chef's selection", "entertainment": "private suite + First Class lounge"}
+      }
+    },
+    {
+      "id": "OW020",
+      "route": {
+        "from": {"code": "DOH", "city": "Doha", "country": "Qatar"},
+        "to": {"code": "KUL", "city": "Kuala Lumpur", "country": "Malaysia"}
+      },
+      "flight_type": "direct",
+      "airline": {"code": "QR", "name": "Qatar Airways"},
+      "flight_number": "QR845",
+      "duration": "7h 15m",
+      "aircraft": "Airbus A350-900",
+      "classes": {
+        "economy": {"price": 420, "available_seats": 78, "baggage": "2x23kg", "meal": "included", "entertainment": "personal screen"},
+        "premium_economy": {"price": 850, "available_seats": 28, "baggage": "2x23kg", "meal": "premium", "entertainment": "personal screen + extra space"},
+        "business": {"price": 2400, "available_seats": 22, "baggage": "2x32kg", "meal": "à la carte", "entertainment": "lie-flat seat + Al Mourjan lounge"},
+        "first": {"price": 5800, "available_seats": 6, "baggage": "3x32kg", "meal": "chef's selection", "entertainment": "private suite + Al Safwa First lounge"}
+      }
+    },
+    {
+      "id": "OW021",
+      "route": {
+        "from": {"code": "FRA", "city": "Frankfurt", "country": "Germany"},
+        "to": {"code": "SIN", "city": "Singapore", "country": "Singapore"}
+      },
+      "flight_type": "direct",
+      "airline": {"code": "LH", "name": "Lufthansa"},
+      "flight_number": "LH778",
+      "duration": "12h 20m",
+      "aircraft": "Airbus A350-900",
+      "classes": {
+        "economy": {"price": 780, "available_seats": 68, "baggage": "1x23kg", "meal": "included", "entertainment": "personal screen"},
+        "premium_economy": {"price": 1450, "available_seats": 32, "baggage": "2x23kg", "meal": "premium", "entertainment": "personal screen + extra legroom"},
+        "business": {"price": 3200, "available_seats": 20, "baggage": "2x32kg", "meal": "à la carte", "entertainment": "lie-flat seat + Senator Lounge"}
+      }
+    }
+  ],
+  "metadata": {
+    "total_flights": 21,
+    "flight_types": ["direct", "transit"],
+    "classes": ["economy", "premium_economy", "business", "first"],
+    "airlines_featured": ["SQ", "TG", "GA", "MH", "VN", "PR", "KE", "KL", "AF", "TK", "CX", "LX", "EK", "OS", "QR", "TP", "Y4", "IB", "ET", "JQ"],
+    "price_currency": "USD",
+    "regions_covered": ["Southeast Asia", "East Asia", "South Asia", "Middle East", "Europe", "North America", "Oceania"],
+    "baggage_policies": {
+      "economy": "1-2x23kg",
+      "premium_economy": "2x23kg",
+      "business": "2x32kg",
+      "first": "3x32kg"
+    },
+    "last_updated": "2025-09-18"
+  }
+}

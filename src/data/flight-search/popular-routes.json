@@ -1,0 +1,155 @@
+{
+  "popular_international_routes": [
+    {
+      "route_id": "PR001",
+      "from": {"code": "JFK", "city": "New York", "country": "United States"},
+      "to": {"code": "CDG", "city": "Paris", "country": "France"},
+      "popularity_score": 95,
+      "average_price": {"economy": 650, "business": 3200},
+      "airlines": ["AF", "AA", "UA", "DL"],
+      "flight_time": "7h 30m",
+      "frequency": "daily"
+    },
+    {
+      "route_id": "PR002",
+      "from": {"code": "LAX", "city": "Los Angeles", "country": "United States"},
+      "to": {"code": "HND", "city": "Tokyo", "country": "Japan"},
+      "popularity_score": 92,
+      "average_price": {"economy": 850, "business": 4200},
+      "airlines": ["NH", "JL", "AA", "UA"],
+      "flight_time": "11h 50m",
+      "frequency": "daily"
+    },
+    {
+      "route_id": "PR003",
+      "from": {"code": "LHR", "city": "London", "country": "United Kingdom"},
+      "to": {"code": "DXB", "city": "Dubai", "country": "United Arab Emirates"},
+      "popularity_score": 88,
+      "average_price": {"economy": 480, "business": 2100},
+      "airlines": ["EK", "BA", "QR"],
+      "flight_time": "6h 50m",
+      "frequency": "multiple daily"
+    },
+    {
+      "route_id": "PR004",
+      "from": {"code": "SIN", "city": "Singapore", "country": "Singapore"},
+      "to": {"code": "SYD", "city": "Sydney", "country": "Australia"},
+      "popularity_score": 85,
+      "average_price": {"economy": 520, "business": 1950},
+      "airlines": ["SQ", "QF", "JQ"],
+      "flight_time": "7h 55m",
+      "frequency": "daily"
+    },
+    {
+      "route_id": "PR005",
+      "from": {"code": "FRA", "city": "Frankfurt", "country": "Germany"},
+      "to": {"code": "ICN", "city": "Seoul", "country": "South Korea"},
+      "popularity_score": 82,
+      "average_price": {"economy": 780, "business": 3800},
+      "airlines": ["LH", "KE", "OS"],
+      "flight_time": "10h 30m",
+      "frequency": "daily"
+    }
+  ],
+  "regional_routes": [
+    {
+      "region": "Europe",
+      "routes": [
+        {"from": "LHR", "to": "CDG", "airlines": ["BA", "AF"], "duration": "1h 25m"},
+        {"from": "FRA", "to": "AMS", "airlines": ["LH", "KL"], "duration": "1h 20m"},
+        {"from": "MAD", "to": "FCO", "airlines": ["IB", "AZ"], "duration": "2h 15m"},
+        {"from": "ZUR", "to": "VIE", "airlines": ["LX", "OS"], "duration": "1h 35m"}
+      ]
+    },
+    {
+      "region": "Asia-Pacific",
+      "routes": [
+        {"from": "HND", "to": "ICN", "airlines": ["NH", "JL", "KE"], "duration": "2h 30m"},
+        {"from": "SIN", "to": "HKG", "airlines": ["SQ", "CX"], "duration": "3h 45m"},
+        {"from": "SYD", "to": "MEL", "airlines": ["QF", "JQ"], "duration": "1h 35m"},
+        {"from": "BKK", "to": "SIN", "airlines": ["TG", "SQ"], "duration": "2h 25m"}
+      ]
+    },
+    {
+      "region": "North America",
+      "routes": [
+        {"from": "JFK", "to": "LAX", "airlines": ["AA", "DL", "UA", "B6"], "duration": "6h 15m"},
+        {"from": "ORD", "to": "SFO", "airlines": ["AA", "UA"], "duration": "4h 45m"},
+        {"from": "YYZ", "to": "YVR", "airlines": ["AC"], "duration": "4h 30m"},
+        {"from": "DFW", "to": "SEA", "airlines": ["AA", "AS"], "duration": "4h 20m"}
+      ]
+    }
+  ],
+  "hub_connections": [
+    {
+      "hub": "DXB",
+      "airline": "EK",
+      "connections": [
+        {"destination": "LHR", "frequency": "5x daily"},
+        {"destination": "JFK", "frequency": "3x daily"},
+        {"destination": "SIN", "frequency": "4x daily"},
+        {"destination": "SYD", "frequency": "2x daily"},
+        {"destination": "BOM", "frequency": "4x daily"}
+      ]
+    },
+    {
+      "hub": "DOH",
+      "airline": "QR",
+      "connections": [
+        {"destination": "LHR", "frequency": "4x daily"},
+        {"destination": "JFK", "frequency": "2x daily"},
+        {"destination": "SIN", "frequency": "3x daily"},
+        {"destination": "SYD", "frequency": "2x daily"},
+        {"destination": "BKK", "frequency": "3x daily"}
+      ]
+    },
+    {
+      "hub": "AMS",
+      "airline": "KL",
+      "connections": [
+        {"destination": "JFK", "frequency": "3x daily"},
+        {"destination": "ATL", "frequency": "2x daily"},
+        {"destination": "NRT", "frequency": "1x daily"},
+        {"destination": "SIN", "frequency": "2x daily"},
+        {"destination": "CPT", "frequency": "1x daily"}
+      ]
+    },
+    {
+      "hub": "IST",
+      "airline": "TK",
+      "connections": [
+        {"destination": "JFK", "frequency": "2x daily"},
+        {"destination": "LAX", "frequency": "1x daily"},
+        {"destination": "SIN", "frequency": "2x daily"},
+        {"destination": "NRT", "frequency": "1x daily"},
+        {"destination": "CPT", "frequency": "1x daily"}
+      ]
+    }
+  ],
+  "seasonal_routes": [
+    {
+      "season": "Summer (Jun-Aug)",
+      "routes": [
+        {"from": "JFK", "to": "ATH", "airlines": ["AA", "DL"], "peak_demand": true},
+        {"from": "LHR", "to": "IBZ", "airlines": ["BA", "U2"], "peak_demand": true},
+        {"from": "FRA", "to": "PMI", "airlines": ["LH", "U2"], "peak_demand": true}
+      ]
+    },
+    {
+      "season": "Winter (Dec-Feb)",
+      "routes": [
+        {"from": "JFK", "to": "CUN", "airlines": ["AA", "DL", "B6"], "peak_demand": true},
+        {"from": "LHR", "to": "DXB", "airlines": ["BA", "EK"], "peak_demand": true},
+        {"from": "FRA", "to": "BKK", "airlines": ["LH", "TG"], "peak_demand": true}
+      ]
+    }
+  ],
+  "metadata": {
+    "total_popular_routes": 5,
+    "total_regional_routes": 12,
+    "total_hubs": 4,
+    "airlines_count": 20,
+    "last_updated": "2025-09-17",
+    "data_source": "Flight frequency and popularity analysis"
+  }
+}

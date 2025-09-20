@@ -1,0 +1,177 @@
+{
+  "hotel": {
+    "id": "grand-hotel-jakarta",
+    "countryId": "indonesia",
+    "name": "Grand Hotel Jakarta",
+    "rating": 4.8,
+    "reviews": 1234,
+    "price": 150,
+    "originalPrice": 180,
+    "currency": "$",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=800&h=600&fit=crop"
+    ],
+    "location": "Downtown",
+    "distance": "0.5 km from center",
+    "address": "123 Main Street, Downtown District",
+    "amenities": ["Free WiFi", "Pool", "Gym", "Spa", "Restaurant", "Bar", "Parking", "Room Service"],
+    "description": "Experience luxury and comfort at Grand Hotel Downtown. Located in the heart of the city, our hotel offers modern amenities, exceptional service, and stunning city views. Perfect for both business and leisure travelers.",
+    "policies": {
+      "checkIn": "3:00 PM",
+      "checkOut": "11:00 AM",
+      "cancellation": "Free cancellation up to 24 hours before check-in",
+      "pets": "Pets allowed with additional fee",
+      "smoking": "Non-smoking property"
+    }
+  },
+  "rooms": [
+    {
+      "id": "1",
+      "name": "Standard Room",
+      "type": "Standard",
+      "size": "25 m²",
+      "maxGuests": 2,
+      "beds": "1 Queen Bed",
+      "amenities": ["Free WiFi", "Air Conditioning", "TV", "Mini Bar"],
+      "price": 120,
+      "currency": "$",
+      "availability": 3,
+      "images": ["https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&h=600&fit=crop"],
+      "cancellation": "Free cancellation until 6 PM",
+      "breakfast": false,
+      "refundable": true
+    },
+    {
+      "id": "2",
+      "name": "Deluxe Room",
+      "type": "Deluxe",
+      "size": "35 m²",
+      "maxGuests": 2,
+      "beds": "1 King Bed",
+      "amenities": ["Free WiFi", "Air Conditioning", "TV", "Mini Bar", "City View", "Balcony"],
+      "price": 150,
+      "originalPrice": 180,
+      "currency": "$",
+      "availability": 5,
+      "images": ["https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&h=600&fit=crop"],
+      "cancellation": "Free cancellation until 6 PM",
+      "breakfast": true,
+      "refundable": true
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "guestName": "John Smith",
+      "guestCountry": "United States",
+      "rating": 9.2,
+      "date": "2024-01-15",
+      "stayDate": "January 2024",
+      "roomType": "Deluxe Room",
+      "tripType": "Leisure",
+      "title": "Excellent stay!",
+      "positives": ["Great location", "Friendly staff", "Clean rooms"],
+      "negatives": ["WiFi could be faster"],
+      "comment": "Had a wonderful time at this hotel. The staff was very helpful and the location is perfect.",
+      "helpful": 12,
+      "verified": true
+    }
+  ],
+  "reviewStats": {
+    "overall": 4.8,
+    "totalReviews": 1234,
+    "breakdown": {
+      "cleanliness": 4.9,
+      "comfort": 4.7,
+      "location": 4.8,
+      "facilities": 4.6,
+      "staff": 4.9,
+      "valueForMoney": 4.5
+    },
+    "ratingDistribution": {
+      "5": 800,
+      "4": 300,
+      "3": 100,
+      "2": 25,
+      "1": 9
+    }
+  },
+  "faqs": [
+    {
+      "id": "1",
+      "question": "What time is check-in?",
+      "answer": "Check-in is from 3:00 PM. Early check-in may be available upon request.",
+      "category": "checkin",
+      "helpful": 45
+    },
+    {
+      "id": "2",
+      "question": "Is parking available?",
+      "answer": "Yes, we offer complimentary self-parking for all guests.",
+      "category": "parking",
+      "helpful": 32
+    }
+  ],
+  "facilities": {
+    "wellness": [
+      "Outdoor swimming pool",
+      "Fitness center with modern equipment",
+      "Full-service spa and wellness center",
+      "Sauna and steam room",
+      "Yoga and meditation classes"
+    ],
+    "food": [
+      "Fine dining restaurant with international cuisine",
+      "Rooftop bar with city views",
+      "24-hour room service",
+      "Continental breakfast buffet",
+      "Coffee shop and bakery"
+    ],
+    "business": [
+      "Business center with printing and fax services",
+      "Meeting rooms for up to 50 people",
+      "Conference facilities with AV equipment",
+      "High-speed internet throughout property",
+      "Concierge services"
+    ],
+    "general": [
+      "24-hour front desk",
+      "Valet parking service",
+      "Laundry and dry cleaning",
+      "Currency exchange",
+      "Tour desk and ticket service"
+    ],
+    "accessibility": [
+      "Wheelchair accessible rooms and facilities",
+      "Elevator access to all floors",
+      "Braille signage throughout property",
+      "Accessible parking spaces",
+      "Hearing loop in public areas"
+    ],
+    "safety": [
+      "24-hour security",
+      "Electronic key card access",
+      "In-room safes",
+      "Fire safety systems",
+      "Emergency evacuation procedures"
+    ],
+    "sustainability": [
+      "Solar panels for renewable energy",
+      "Energy-efficient lighting throughout the property",
+      "Water conservation programs in place",
+      "Recycling program for guests and staff"
+    ],
+    "localRegulations": [
+      "Quiet hours are enforced from 10 PM to 7 AM",
+      "Local occupancy tax applies to all stays",
+      "Smoking is prohibited in all indoor areas per city ordinance"
+    ]
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "facilities": [
+    {
+      "id": "1",
+      "name": "Free WiFi",
+      "category": "internet",
+      "description": "High-speed internet throughout the property",
+      "available": true,
+      "isPaid": false
+    },
+    {
+      "id": "2",
+      "name": "Swimming Pool",
+      "category": "wellness",
+      "description": "Outdoor pool open 6 AM - 10 PM",
+      "available": true,
+      "isPaid": false,
+      "hours": "6:00 AM - 10:00 PM"
+    }
+  ],
+  "houseRules": [
+    {
+      "id": "1",
+      "category": "pets",
+      "title": "Pet Policy",
+      "description": "Pets are welcome with additional fees",
+      "allowed": true,
+      "details": [
+        "$50 per pet per night",
+        "Maximum 2 pets per room",
+        "Must be leashed in public areas"
+      ],
+      "additionalInfo": "Service animals are always welcome at no charge"
+    },
+    {
+      "id": "2",
+      "category": "smoking",
+      "title": "Smoking Policy",
+      "description": "This is a non-smoking property",
+      "allowed": false,
+      "details": [
+        "Smoking prohibited in all indoor areas",
+        "Designated outdoor smoking areas available"
+      ],
+      "additionalInfo": "Violation fee of $250 applies"
+    }
+  ],
+  "companyInfo": {
+    "managementCompany": "Premium Hotels Group",
+    "contactInfo": {
+      "phone": "+1 (555) 123-4567",
+      "email": "info@grandhoteldowntown.com",
+      "website": "https://grandhoteldowntown.com",
+      "address": "123 Main Street, Downtown District"
+    },
+    "certifications": ["ISO 9001 Certified", "Green Key Certified", "Safe Travels Approved"],
+    "awards": [
+      { "name": "Best Downtown Hotel", "year": 2023, "organization": "Travel Awards" },
+      { "name": "Excellence in Service", "year": 2022, "organization": "Hospitality Excellence" }
+    ],
+    "description": "Premium Hotels Group has been providing exceptional hospitality experiences for over 25 years."
+  },
+  "areaInfo": {
+    "neighborhood": "Downtown District",
+    "description": "Located in the vibrant heart of the city, surrounded by shopping, dining, and entertainment options.",
+    "attractions": [
+      {
+        "id": "1",
+        "name": "City Museum",
+        "type": "attraction",
+        "distance": "0.3 km",
+        "walkingTime": "4 min",
+        "rating": 4.5,
+        "description": "World-class art and history museum"
+      },
+      {
+        "id": "2",
+        "name": "Central Park",
+        "type": "attraction",
+        "distance": "0.5 km",
+        "walkingTime": "6 min",
+        "rating": 4.8,
+        "description": "Beautiful urban park perfect for walks"
+      }
+    ],
+    "transport": [
+      {
+        "type": "metro",
+        "name": "Downtown Station",
+        "distance": "0.2 km",
+        "travelTime": "2 min walk"
+      },
+      {
+        "type": "airport",
+        "name": "City Airport",
+        "distance": "25 km",
+        "travelTime": "30 min by car"
+      }
+    ],
+    "walkScore": 95
+  },
+  "recommendations": {
+    "similarHotels": [
+      {
+        "id": "1",
+        "name": "Luxury Plaza Hotel",
+        "rating": 4.7,
+        "reviewCount": 890,
+        "price": 180,
+        "currency": "$",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&h=600&fit=crop",
+        "location": "Downtown",
+        "distance": "0.8 km",
+        "amenities": ["WiFi", "Pool", "Spa"],
+        "similarityScore": 0.9
+      }
+    ],
+    "nearbyHotels": [
+      {
+        "id": "2",
+        "name": "Business Center Hotel",
+        "rating": 4.5,
+        "reviewCount": 650,
+        "price": 140,
+        "currency": "$",
+        "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&h=600&fit=crop",
+        "location": "Financial District",
+        "distance": "1.2 km",
+        "amenities": ["WiFi", "Gym", "Restaurant"],
+        "similarityScore": 0.8
+      }
+    ],
+    "alternativeDestinations": [
+      {
+        "id": "1",
+        "name": "Coastal City",
+        "country": "Same Country",
+        "image": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800&h=600&fit=crop",
+        "description": "Beautiful coastal destination with beaches and resorts",
+        "averagePrice": 120,
+        "currency": "$",
+        "popularMonths": ["Jun", "Jul", "Aug"]
+      }
+    ]
+  },
+  "moreInfo": {
+    "legalInfo": {
+      "propertyId": "HTL-2024-001",
+      "businessLicense": "BL-789456123",
+      "taxId": "TX-456789012",
+      "registrationNumber": "REG-123456789"
+    },
+    "contactInfo": {
+      "emergencyContact": "911",
+      "localAuthorities": "+1 (555) 999-0000",
+      "touristBoard": "+1 (555) 888-0000"
+    },
+    "termsAndConditions": [
+      "All guests must present valid identification upon check-in",
+      "Rates are subject to applicable taxes and fees",
+      "Cancellation policies vary by rate and booking date"
+    ],
+    "privacyPolicy": "We are committed to protecting your privacy and personal information in accordance with applicable laws.",
+    "accessibilityInfo": [
+      "Wheelchair accessible entrances and elevators",
+      "Accessible parking spaces available",
+      "Hearing assistance devices available upon request"
+    ],
+    "sustainabilityInfo": [
+      "Energy-efficient lighting throughout the property",
+      "Water conservation programs in place",
+      "Recycling program for guests and staff"
+    ],
+    "localRegulations": [
+      "Quiet hours are enforced from 10 PM to 7 AM",
+      "Local occupancy tax applies to all stays",
+      "Smoking is prohibited in all indoor areas per city ordinance"
+    ]
+  }
+}

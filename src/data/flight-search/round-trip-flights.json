@@ -1,0 +1,535 @@
+{
+  "round_trip_flights": [
+    {
+      "id": "RT001",
+      "route": {
+        "from": {"code": "SIN", "city": "Singapore", "country": "Singapore"},
+        "to": {"code": "BKK", "city": "Bangkok", "country": "Thailand"}
+      },
+      "outbound": {
+        "flight_type": "direct",
+        "airline": {"code": "SQ", "name": "Singapore Airlines"},
+        "flight_number": "SQ711",
+        "duration": "2h 20m",
+        "aircraft": "Airbus A350-900",
+        "classes": {
+          "economy": {"price": 280, "available_seats": 95, "baggage": "2x23kg", "meal": "included", "entertainment": "personal screen"},
+          "premium_economy": {"price": 520, "available_seats": 28, "baggage": "2x23kg", "meal": "premium", "entertainment": "personal screen + extra legroom"},
+          "business": {"price": 1200, "available_seats": 24, "baggage": "2x32kg", "meal": "à la carte", "entertainment": "lie-flat seat + SilverKris lounge"},
+          "first": {"price": 2800, "available_seats": 6, "baggage": "3x32kg", "meal": "chef's selection", "entertainment": "private suite + first class lounge"}
+        }
+      },
+      "return": {
+        "flight_type": "direct",
+        "airline": {"code": "TG", "name": "Thai Airways"},
+        "flight_number": "TG405",
+        "duration": "2h 25m",
+        "aircraft": "Boeing 777-300ER",
+        "classes": {
+          "economy": {"price": 275, "available_seats": 88, "baggage": "2x23kg", "meal": "included", "entertainment": "personal screen"},
+          "premium_economy": {"price": 510, "available_seats": 32, "baggage": "2x23kg", "meal": "premium", "entertainment": "personal screen + extra space"},
+          "business": {"price": 1150, "available_seats": 26, "baggage": "2x32kg", "meal": "à la carte", "entertainment": "lie-flat seat + Royal Orchid lounge"},
+          "first": {"price": 2650, "available_seats": 8, "baggage": "3x32kg", "meal": "chef's selection", "entertainment": "private suite + Royal First lounge"}
+        }
+      },
+      "total_price_range": {"economy": 555, "premium_economy": 1030, "business": 2350, "first": 5450}
+    },
+    {
+      "id": "RT002",
+      "route": {
+        "from": {"code": "JFK", "city": "New York", "country": "United States"},
+        "to": {"code": "LHR", "city": "London", "country": "United Kingdom"}
+      },
+      "outbound": {
+        "flight_type": "direct",
+        "airline": {"code": "BA", "name": "British Airways"},
+        "flight_number": "BA178",
+        "duration": "7h 20m",
+        "aircraft": "Boeing 777-300ER",
+        "classes": {
+          "economy": {"price": 650, "available_seats": 45, "baggage": "1x23kg"},
+          "premium_economy": {"price": 1200, "available_seats": 12, "baggage": "2x23kg"},
+          "business": {"price": 3200, "available_seats": 8, "baggage": "2x32kg"},
+          "first": {"price": 6500, "available_seats": 4, "baggage": "3x32kg"}
+        }
+      },
+      "return": {
+        "flight_type": "direct",
+        "airline": {"code": "BA", "name": "British Airways"},
+        "flight_number": "BA179",
+        "duration": "8h 15m",
+        "aircraft": "Boeing 777-300ER",
+        "classes": {
+          "economy": {"price": 650, "available_seats": 38, "baggage": "1x23kg"},
+          "premium_economy": {"price": 1200, "available_seats": 15, "baggage": "2x23kg"},
+          "business": {"price": 3200, "available_seats": 6, "baggage": "2x32kg"},
+          "first": {"price": 6500, "available_seats": 2, "baggage": "3x32kg"}
+        }
+      },
+      "total_price_range": {"economy": 1300, "premium_economy": 2400, "business": 6400, "first": 13000}
+    },
+    {
+      "id": "RT003",
+      "route": {
+        "from": {"code": "JFK", "city": "New York", "country": "United States"},
+        "to": {"code": "LHR", "city": "London", "country": "United Kingdom"}
+      },
+      "outbound": {
+        "flight_type": "transit",
+        "segments": [
+          {
+            "airline": {"code": "AA", "name": "American Airlines"},
+            "flight_number": "AA142",
+            "from": "JFK",
+            "to": "CDG",
+            "duration": "7h 45m",
+            "aircraft": "Airbus A330-300"
+          },
+          {
+            "airline": {"code": "AF", "name": "Air France"},
+            "flight_number": "AF1381",
+            "from": "CDG",
+            "to": "LHR",
+            "duration": "1h 25m",
+            "aircraft": "Airbus A320",
+            "layover": "2h 15m"
+          }
+        ],
+        "total_duration": "11h 25m",
+        "classes": {
+          "economy": {"price": 580, "available_seats": 52, "baggage": "1x23kg"},
+          "premium_economy": {"price": 980, "available_seats": 18, "baggage": "2x23kg"},
+          "business": {"price": 2800, "available_seats": 12, "baggage": "2x32kg"}
+        }
+      },
+      "return": {
+        "flight_type": "direct",
+        "airline": {"code": "UA", "name": "United Airlines"},
+        "flight_number": "UA928",
+        "duration": "8h 30m",
+        "aircraft": "Boeing 767-400ER",
+        "classes": {
+          "economy": {"price": 620, "available_seats": 41, "baggage": "1x23kg"},
+          "premium_economy": {"price": 1100, "available_seats": 14, "baggage": "2x23kg"},
+          "business": {"price": 2900, "available_seats": 9, "baggage": "2x32kg"}
+        }
+      },
+      "total_price_range": {"economy": 1200, "premium_economy": 2080, "business": 5700}
+    },
+    {
+      "id": "RT004",
+      "route": {
+        "from": {"code": "LAX", "city": "Los Angeles", "country": "United States"},
+        "to": {"code": "NRT", "city": "Tokyo", "country": "Japan"}
+      },
+      "outbound": {
+        "flight_type": "direct",
+        "airline": {"code": "NH", "name": "All Nippon Airways"},
+        "flight_number": "NH175",
+        "duration": "11h 50m",
+        "aircraft": "Boeing 777-300ER",
+        "classes": {
+          "economy": {"price": 850, "available_seats": 62, "baggage": "2x23kg"},
+          "premium_economy": {"price": 1650, "available_seats": 24, "baggage": "2x23kg"},
+          "business": {"price": 4200, "available_seats": 16, "baggage": "2x32kg"},
+          "first": {"price": 8500, "available_seats": 8, "baggage": "3x32kg"}
+        }
+      },
+      "return": {
+        "flight_type": "direct",
+        "airline": {"code": "JL", "name": "Japan Airlines"},
+        "flight_number": "JL62",
+        "duration": "9h 35m",
+        "aircraft": "Boeing 787-9",
+        "classes": {
+          "economy": {"price": 820, "available_seats": 58, "baggage": "2x23kg"},
+          "premium_economy": {"price": 1580, "available_seats": 21, "baggage": "2x23kg"},
+          "business": {"price": 3950, "available_seats": 14, "baggage": "2x32kg"},
+          "first": {"price": 8200, "available_seats": 6, "baggage": "3x32kg"}
+        }
+      },
+      "total_price_range": {"economy": 1670, "premium_economy": 3230, "business": 8150, "first": 16700}
+    },
+    {
+      "id": "RT005",
+      "route": {
+        "from": {"code": "DXB", "city": "Dubai", "country": "United Arab Emirates"},
+        "to": {"code": "SIN", "city": "Singapore", "country": "Singapore"}
+      },
+      "outbound": {
+        "flight_type": "direct",
+        "airline": {"code": "EK", "name": "Emirates"},
+        "flight_number": "EK354",
+        "duration": "7h 25m",
+        "aircraft": "Airbus A380-800",
+        "classes": {
+          "economy": {"price": 420, "available_seats": 89, "baggage": "2x23kg"},
+          "premium_economy": {"price": 850, "available_seats": 32, "baggage": "2x23kg"},
+          "business": {"price": 2100, "available_seats": 24, "baggage": "2x32kg"},
+          "first": {"price": 4800, "available_seats": 12, "baggage": "3x32kg"}
+        }
+      },
+      "return": {
+        "flight_type": "direct",
+        "airline": {"code": "SQ", "name": "Singapore Airlines"},
+        "flight_number": "SQ494",
+        "duration": "7h 15m",
+        "aircraft": "Airbus A350-900",
+        "classes": {
+          "economy": {"price": 450, "available_seats": 76, "baggage": "2x23kg"},
+          "premium_economy": {"price": 920, "available_seats": 28, "baggage": "2x23kg"},
+          "business": {"price": 2250, "available_seats": 20, "baggage": "2x32kg"},
+          "first": {"price": 5200, "available_seats": 8, "baggage": "3x32kg"}
+        }
+      },
+      "total_price_range": {"economy": 870, "premium_economy": 1770, "business": 4350, "first": 10000}
+    },
+    {
+      "id": "RT006",
+      "route": {
+        "from": {"code": "FRA", "city": "Frankfurt", "country": "Germany"},
+        "to": {"code": "ORD", "city": "Chicago", "country": "United States"}
+      },
+      "outbound": {
+        "flight_type": "transit",
+        "segments": [
+          {
+            "airline": {"code": "LH", "name": "Lufthansa"},
+            "flight_number": "LH441",
+            "from": "FRA",
+            "to": "AMS",
+            "duration": "1h 20m",
+            "aircraft": "Airbus A320"
+          },
+          {
+            "airline": {"code": "KL", "name": "KLM"},
+            "flight_number": "KL611",
+            "from": "AMS",
+            "to": "ORD",
+            "duration": "8h 45m",
+            "aircraft": "Boeing 777-200ER",
+            "layover": "1h 45m"
+          }
+        ],
+        "total_duration": "11h 50m",
+        "classes": {
+          "economy": {"price": 720, "available_seats": 48, "baggage": "1x23kg"},
+          "premium_economy": {"price": 1350, "available_seats": 20, "baggage": "2x23kg"},
+          "business": {"price": 3100, "available_seats": 16, "baggage": "2x32kg"}
+        }
+      },
+      "return": {
+        "flight_type": "direct",
+        "airline": {"code": "UA", "name": "United Airlines"},
+        "flight_number": "UA971",
+        "duration": "8h 20m",
+        "aircraft": "Boeing 787-9",
+        "classes": {
+          "economy": {"price": 680, "available_seats": 55, "baggage": "1x23kg"},
+          "premium_economy": {"price": 1280, "available_seats": 22, "baggage": "2x23kg"},
+          "business": {"price": 2950, "available_seats": 18, "baggage": "2x32kg"}
+        }
+      },
+      "total_price_range": {"economy": 1400, "premium_economy": 2630, "business": 6050}
+    },
+    {
+      "id": "RT007",
+      "route": {
+        "from": {"code": "DOH", "city": "Doha", "country": "Qatar"},
+        "to": {"code": "SYD", "city": "Sydney", "country": "Australia"}
+      },
+      "outbound": {
+        "flight_type": "direct",
+        "airline": {"code": "QR", "name": "Qatar Airways"},
+        "flight_number": "QR908",
+        "duration": "14h 20m",
+        "aircraft": "Airbus A350-1000",
+        "classes": {
+          "economy": {"price": 950, "available_seats": 72, "baggage": "2x23kg"},
+          "premium_economy": {"price": 1850, "available_seats": 28, "baggage": "2x23kg"},
+          "business": {"price": 4500, "available_seats": 22, "baggage": "2x32kg"},
+          "first": {"price": 9200, "available_seats": 8, "baggage": "3x32kg"}
+        }
+      },
+      "return": {
+        "flight_type": "transit",
+        "segments": [
+          {
+            "airline": {"code": "QF", "name": "Qantas"},
+            "flight_number": "QF127",
+            "from": "SYD",
+            "to": "HKG",
+            "duration": "9h 15m",
+            "aircraft": "Airbus A330-300"
+          },
+          {
+            "airline": {"code": "QR", "name": "Qatar Airways"},
+            "flight_number": "QR818",
+            "from": "HKG",
+            "to": "DOH",
+            "duration": "8h 45m",
+            "aircraft": "Boeing 777-300ER",
+            "layover": "3h 20m"
+          }
+        ],
+        "total_duration": "21h 20m",
+        "classes": {
+          "economy": {"price": 880, "available_seats": 65, "baggage": "2x23kg"},
+          "premium_economy": {"price": 1720, "available_seats": 24, "baggage": "2x23kg"},
+          "business": {"price": 4200, "available_seats": 18, "baggage": "2x32kg"}
+        }
+      },
+      "total_price_range": {"economy": 1830, "premium_economy": 3570, "business": 8700, "first": 9200}
+    },
+    {
+      "id": "RT008",
+      "route": {
+        "from": {"code": "CGK", "city": "Jakarta", "country": "Indonesia"},
+        "to": {"code": "SIN", "city": "Singapore", "country": "Singapore"}
+      },
+      "outbound": {
+        "flight_type": "direct",
+        "airline": {"code": "GA", "name": "Garuda Indonesia"},
+        "flight_number": "GA836",
+        "duration": "1h 45m",
+        "aircraft": "Boeing 737-800",
+        "classes": {
+          "economy": {"price": 180, "available_seats": 85, "baggage": "1x20kg"},
+          "business": {"price": 420, "available_seats": 12, "baggage": "2x23kg"}
+        }
+      },
+      "return": {
+        "flight_type": "direct",
+        "airline": {"code": "SQ", "name": "Singapore Airlines"},
+        "flight_number": "SQ952",
+        "duration": "1h 50m",
+        "aircraft": "Airbus A330-300",
+        "classes": {
+          "economy": {"price": 190, "available_seats": 78, "baggage": "1x20kg"},
+          "business": {"price": 450, "available_seats": 18, "baggage": "2x23kg"}
+        }
+      },
+      "total_price_range": {"economy": 370, "business": 870}
+    },
+    {
+      "id": "RT009",
+      "route": {
+        "from": {"code": "KUL", "city": "Kuala Lumpur", "country": "Malaysia"},
+        "to": {"code": "BKK", "city": "Bangkok", "country": "Thailand"}
+      },
+      "outbound": {
+        "flight_type": "direct",
+        "airline": {"code": "MH", "name": "Malaysia Airlines"},
+        "flight_number": "MH780",
+        "duration": "2h 05m",
+        "aircraft": "Boeing 737-800",
+        "classes": {
+          "economy": {"price": 150, "available_seats": 92, "baggage": "1x20kg"},
+          "business": {"price": 380, "available_seats": 12, "baggage": "2x23kg"}
+        }
+      },
+      "return": {
+        "flight_type": "direct",
+        "airline": {"code": "TG", "name": "Thai Airways"},
+        "flight_number": "TG417",
+        "duration": "2h 10m",
+        "aircraft": "Airbus A320",
+        "classes": {
+          "economy": {"price": 160, "available_seats": 88, "baggage": "1x20kg"},
+          "business": {"price": 390, "available_seats": 16, "baggage": "2x23kg"}
+        }
+      },
+      "total_price_range": {"economy": 310, "business": 770}
+    },
+    {
+      "id": "RT010",
+      "route": {
+        "from": {"code": "SGN", "city": "Ho Chi Minh City", "country": "Vietnam"},
+        "to": {"code": "HAN", "city": "Hanoi", "country": "Vietnam"}
+      },
+      "outbound": {
+        "flight_type": "direct",
+        "airline": {"code": "VN", "name": "Vietnam Airlines"},
+        "flight_number": "VN211",
+        "duration": "2h 15m",
+        "aircraft": "Airbus A321",
+        "classes": {
+          "economy": {"price": 120, "available_seats": 88, "baggage": "1x20kg"},
+          "business": {"price": 320, "available_seats": 16, "baggage": "2x23kg"}
+        }
+      },
+      "return": {
+        "flight_type": "direct",
+        "airline": {"code": "VN", "name": "Vietnam Airlines"},
+        "flight_number": "VN216",
+        "duration": "2h 20m",
+        "aircraft": "Airbus A321",
+        "classes": {
+          "economy": {"price": 125, "available_seats": 85, "baggage": "1x20kg"},
+          "business": {"price": 325, "available_seats": 18, "baggage": "2x23kg"}
+        }
+      },
+      "total_price_range": {"economy": 245, "business": 645}
+    },
+    {
+      "id": "RT011",
+      "route": {
+        "from": {"code": "MNL", "city": "Manila", "country": "Philippines"},
+        "to": {"code": "CEB", "city": "Cebu", "country": "Philippines"}
+      },
+      "outbound": {
+        "flight_type": "direct",
+        "airline": {"code": "PR", "name": "Philippine Airlines"},
+        "flight_number": "PR1859",
+        "duration": "1h 35m",
+        "aircraft": "Airbus A321",
+        "classes": {
+          "economy": {"price": 85, "available_seats": 95, "baggage": "1x20kg"},
+          "business": {"price": 250, "available_seats": 12, "baggage": "2x23kg"}
+        }
+      },
+      "return": {
+        "flight_type": "direct",
+        "airline": {"code": "5J", "name": "Cebu Pacific"},
+        "flight_number": "5J562",
+        "duration": "1h 40m",
+        "aircraft": "Airbus A320",
+        "classes": {
+          "economy": {"price": 75, "available_seats": 108, "baggage": "1x15kg"}
+        }
+      },
+      "total_price_range": {"economy": 160, "business": 325}
+    },
+    {
+      "id": "RT012",
+      "route": {
+        "from": {"code": "CGK", "city": "Jakarta", "country": "Indonesia"},
+        "to": {"code": "KUL", "city": "Kuala Lumpur", "country": "Malaysia"}
+      },
+      "outbound": {
+        "flight_type": "direct",
+        "airline": {"code": "GA", "name": "Garuda Indonesia"},
+        "flight_number": "GA810",
+        "duration": "2h 05m",
+        "aircraft": "Boeing 737-800",
+        "classes": {
+          "economy": {"price": 195, "available_seats": 88, "baggage": "1x20kg"},
+          "business": {"price": 480, "available_seats": 12, "baggage": "2x23kg"}
+        }
+      },
+      "return": {
+        "flight_type": "direct",
+        "airline": {"code": "MH", "name": "Malaysia Airlines"},
+        "flight_number": "MH725",
+        "duration": "2h 10m",
+        "aircraft": "Airbus A330-300",
+        "classes": {
+          "economy": {"price": 185, "available_seats": 92, "baggage": "2x23kg"},
+          "business": {"price": 465, "available_seats": 16, "baggage": "2x32kg"}
+        }
+      },
+      "total_price_range": {"economy": 380, "business": 945}
+    },
+    {
+      "id": "RT013",
+      "route": {
+        "from": {"code": "BKK", "city": "Bangkok", "country": "Thailand"},
+        "to": {"code": "SGN", "city": "Ho Chi Minh City", "country": "Vietnam"}
+      },
+      "outbound": {
+        "flight_type": "direct",
+        "airline": {"code": "TG", "name": "Thai Airways"},
+        "flight_number": "TG541",
+        "duration": "1h 30m",
+        "aircraft": "Airbus A320",
+        "classes": {
+          "economy": {"price": 165, "available_seats": 105, "baggage": "2x23kg"},
+          "business": {"price": 420, "available_seats": 12, "baggage": "2x32kg"}
+        }
+      },
+      "return": {
+        "flight_type": "direct",
+        "airline": {"code": "VN", "name": "Vietnam Airlines"},
+        "flight_number": "VN542",
+        "duration": "1h 35m",
+        "aircraft": "Airbus A321",
+        "classes": {
+          "economy": {"price": 155, "available_seats": 98, "baggage": "1x20kg"},
+          "business": {"price": 395, "available_seats": 16, "baggage": "2x23kg"}
+        }
+      },
+      "total_price_range": {"economy": 320, "business": 815}
+    },
+    {
+      "id": "RT014",
+      "route": {
+        "from": {"code": "KUL", "city": "Kuala Lumpur", "country": "Malaysia"},
+        "to": {"code": "SIN", "city": "Singapore", "country": "Singapore"}
+      },
+      "outbound": {
+        "flight_type": "direct",
+        "airline": {"code": "MH", "name": "Malaysia Airlines"},
+        "flight_number": "MH602",
+        "duration": "1h 20m",
+        "aircraft": "Boeing 737-800",
+        "classes": {
+          "economy": {"price": 125, "available_seats": 118, "baggage": "2x23kg"},
+          "business": {"price": 350, "available_seats": 12, "baggage": "2x32kg"}
+        }
+      },
+      "return": {
+        "flight_type": "direct",
+        "airline": {"code": "SQ", "name": "Singapore Airlines"},
+        "flight_number": "SQ103",
+        "duration": "1h 15m",
+        "aircraft": "Airbus A350-900",
+        "classes": {
+          "economy": {"price": 135, "available_seats": 108, "baggage": "2x23kg"},
+          "premium_economy": {"price": 285, "available_seats": 24, "baggage": "2x23kg"},
+          "business": {"price": 385, "available_seats": 18, "baggage": "2x32kg"}
+        }
+      },
+      "total_price_range": {"economy": 260, "premium_economy": 635, "business": 735}
+    },
+    {
+      "id": "RT015",
+      "route": {
+        "from": {"code": "DPS", "city": "Denpasar (Bali)", "country": "Indonesia"},
+        "to": {"code": "SIN", "city": "Singapore", "country": "Singapore"}
+      },
+      "outbound": {
+        "flight_type": "direct",
+        "airline": {"code": "GA", "name": "Garuda Indonesia"},
+        "flight_number": "GA846",
+        "duration": "2h 45m",
+        "aircraft": "Airbus A330-200",
+        "classes": {
+          "economy": {"price": 245, "available_seats": 78, "baggage": "1x20kg"},
+          "premium_economy": {"price": 420, "available_seats": 28, "baggage": "2x23kg"},
+          "business": {"price": 895, "available_seats": 16, "baggage": "2x32kg"}
+        }
+      },
+      "return": {
+        "flight_type": "direct",
+        "airline": {"code": "SQ", "name": "Singapore Airlines"},
+        "flight_number": "SQ947",
+        "duration": "2h 40m",
+        "aircraft": "Boeing 777-300ER",
+        "classes": {
+          "economy": {"price": 255, "available_seats": 85, "baggage": "2x23kg"},
+          "premium_economy": {"price": 445, "available_seats": 32, "baggage": "2x23kg"},
+          "business": {"price": 925, "available_seats": 20, "baggage": "2x32kg"}
+        }
+      },
+      "total_price_range": {"economy": 500, "premium_economy": 865, "business": 1820}
+    }
+  ],
+  "metadata": {
+    "total_routes": 15,
+    "flight_types": ["direct", "transit"],
+    "classes": ["economy", "premium_economy", "business", "first"],
+    "airlines_featured": ["BA", "AA", "AF", "UA", "NH", "JL", "EK", "SQ", "LH", "KL", "QR", "QF", "GA", "MH", "TG", "VN", "PR", "5J"],
+    "price_currency": "USD",
+    "last_updated": "2025-09-18"
+  }
+}
