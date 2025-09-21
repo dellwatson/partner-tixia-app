@@ -26,47 +26,49 @@ const HeroWrapperComponent = () => {
 		return { showHero, mode };
 	}, [location.pathname]);
 
-	// Initialize routes immediately when hero is shown, then handle mode changes
-	useEffect(() => {
-		if (heroConfig.showHero) {
-			// First time showing hero - use pre-generated routes immediately
-			if (!hasInitialized.current) {
-				getRoutesForMode(heroConfig.mode);
-				lastModeRef.current = heroConfig.mode;
-				hasInitialized.current = true;
-				return;
-			}
+	// // Initialize routes immediately when hero is shown, then handle mode changes
+	// useEffect(() => {
+	// 	if (heroConfig.showHero) {
+	// 		// First time showing hero - use pre-generated routes immediately
+	// 		if (!hasInitialized.current) {
+	// 			getRoutesForMode(heroConfig.mode);
+	// 			lastModeRef.current = heroConfig.mode;
+	// 			hasInitialized.current = true;
+	// 			return;
+	// 		}
 
-			// Mode change - only generate new routes if mode actually changed
-			if (lastModeRef.current !== heroConfig.mode) {
-				// Clear any existing timeout
-				if (debounceTimeoutRef.current) {
-					clearTimeout(debounceTimeoutRef.current);
-				}
+	// 		// Mode change - only generate new routes if mode actually changed
+	// 		if (lastModeRef.current !== heroConfig.mode) {
+	// 			// Clear any existing timeout
+	// 			if (debounceTimeoutRef.current) {
+	// 				clearTimeout(debounceTimeoutRef.current);
+	// 			}
 
-				// Debounce route generation to prevent rapid navigation lag
-				debounceTimeoutRef.current = setTimeout(() => {
-					generateRandomRoutes(heroConfig.mode);
-					lastModeRef.current = heroConfig.mode;
-				}, 150); // 150ms debounce
-			}
-		}
+	// 			// Debounce route generation to prevent rapid navigation lag
+	// 			debounceTimeoutRef.current = setTimeout(() => {
+	// 				generateRandomRoutes(heroConfig.mode);
+	// 				lastModeRef.current = heroConfig.mode;
+	// 			}, 150); // 150ms debounce
+	// 		}
+	// 	}
 
-		// Cleanup timeout on unmount
-		return () => {
-			if (debounceTimeoutRef.current) {
-				clearTimeout(debounceTimeoutRef.current);
-			}
-		};
-	}, [heroConfig.mode, heroConfig.showHero, generateRandomRoutes, getRoutesForMode]);
+	// 	// Cleanup timeout on unmount
+	// 	return () => {
+	// 		if (debounceTimeoutRef.current) {
+	// 			clearTimeout(debounceTimeoutRef.current);
+	// 		}
+	// 	};
+	// }, [heroConfig.mode, heroConfig.showHero, generateRandomRoutes, getRoutesForMode]);
 
 	// Always render but hide when not needed to prevent mounting/unmounting
 	const heroStyle = heroConfig.showHero ? {} : { display: 'none' };
 
 	// Switch between hero types - always render but hide when not needed
 	return (
-		<div style={heroStyle}>
-			{HERO_TYPE === 'worldmap' && <HeroSectionWorldMap />}
+		<div
+		// style={heroStyle
+		>
+			<HeroSectionWorldMap />
 			{/* {HERO_TYPE === 'globe' && <HeroSectionGlobe />} */}
 		</div>
 	);

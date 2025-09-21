@@ -19,7 +19,7 @@ export const Header = () => {
 						<div className="mr-4 scale-85 md:mr-8">
 							<Logo variant="dark" />
 						</div>
-						<Navigation />
+						{/* <Navigation /> */}
 					</div>
 					<div className="flex flex-1 items-center justify-end gap-2">
 						{/* Hide UserControls on mobile, show only on md+ screens */}

@@ -1,9 +1,7 @@
-import { createRootRoute, Outlet } from '@tanstack/react-router';
-import { TanStackRouterDevtools } from '@tanstack/router-devtools';
+import { createRootRoute } from '@tanstack/react-router';
 import { Header } from '~/components/header';
 import { HeroWrapper } from '~/components/hero/HeroWrapper';
-import { Footer } from '~/components/footer';
-import Calendar2Months from '~/components/ui/calendar-2-months';
+import { PartnerHero } from '~/components/partner/PartnerHero';
 
 function RootComponent() {
 	return (
@@ -11,9 +9,10 @@ function RootComponent() {
 			{/* <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-white to-teal-50"> */}
 			<Header />
 			<HeroWrapper />
-			<Outlet />
-			<Footer />
-			<TanStackRouterDevtools />
+			<PartnerHero />
+			{/* <Outlet /> */}
+			{/* <Footer /> */}
+			{/* <TanStackRouterDevtools /> */}
 		</div>
 	);
 }

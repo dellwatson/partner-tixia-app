@@ -18,7 +18,7 @@ export const UserControls = ({ variant = 'default' }: UserControlsProps) => {
 	return (
 		<div className="flex items-center space-x-3">
 			{/* Default Menu Items (Property, Help, Currency, Language) */}
-			<DefaultMenuItems onCurrencyChange={handleCurrencyChange} />
+			{/* <DefaultMenuItems onCurrencyChange={handleCurrencyChange} /> */}
 
 			{/* User Controls - Show different UI based on login state */}
 			{/* <UserDropdownMenu user={user} onLogout={logout} /> */}
